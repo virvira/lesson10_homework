@@ -26,7 +26,7 @@ def show_candidate(x):
         res = f'<img src="{candidate["picture"]}">'
         res += get_candidates(candidates)
         return res
-    return f'Кандидата с pk = {x} не найдено'
+    return f'Кандидат с pk = {x} не найден'
 
 
 @app.route("/skills/<skill>")
