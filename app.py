@@ -38,9 +38,4 @@ def show_candidates_with_skill(skill):
     return f'Кандидатов с навыком {skill} не найдено'
 
 
-# get_all(candidates_list)
-# print(candidates_list)
-# print(get_by_pk(2, candidates_list))
-# print(get_by_skill('python', candidates_list))
-
 app.run()
